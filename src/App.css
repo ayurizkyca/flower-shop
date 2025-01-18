@@ -1,0 +1,43 @@
+#root {
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  width: 100vw;
+  font-family: 'Gilroy-Bold', sans-serif;
+  color: #121212;
+}
+
+.hero, .about-us, .why-choose, .contact{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #121212;
+}
+
+.vertical-line{
+  background-color: #000;
+  width: 2px;
+  height: 100%;
+}
+
+.flex-row{
+  display: flex;
+  align-items: center;
+}
+
+.grid-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.gap-16{
+  gap:16px
+}
+
+.about-right, .hero-left, .about-left, .why-left, .contact-left-up{
+  border: 1px solid #121212;
+  padding: 80px;
+}
+
+.grid-contact{
+  text-align: center;
+  border: 1px solid #121212;
+}

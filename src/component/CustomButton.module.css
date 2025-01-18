@@ -1,0 +1,11 @@
+.button {
+    border-radius: 0px;
+    padding: 13.5px 24px;
+    font-size: 16px;
+}
+
+.secondary{
+    border: 1px solid #121212;
+    background-color: #FFFFFF;
+    color: #121212;
+}
