@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './CardCategory.module.css';
+import { ROUTES } from '../constant/routeConstant';
 
 interface Props {
   image: string;
@@ -15,7 +16,7 @@ const CardCategory: React.FC<Props> = ({ image, title, reverse }) => {
       </div>
       <div className={styles.textContainer}>
         <h3>{title}</h3>
-        <a href="#" className={styles.shopNow}>{reverse? "Shop now →" : "← Shop now"}</a>
+        <a href={ROUTES.CATEGORY} className={styles.shopNow}>{reverse? "Shop now →" : "← Shop now"}</a>
       </div>
     </div>
   );

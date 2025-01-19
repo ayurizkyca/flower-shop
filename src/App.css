@@ -6,7 +6,7 @@
   color: #121212;
 }
 
-.hero, .about-us, .why-choose, .contact{
+.hero, .about-us, .why-choose, .contact, .subscription, .category, .category-right, .story{
   display: grid;
   grid-template-columns: 1fr 1fr;
   border: 1px solid #121212;
@@ -32,7 +32,7 @@
   gap:16px
 }
 
-.about-right, .hero-left, .about-left, .why-left, .contact-left-up{
+.about-right, .hero-left, .about-left, .why-left, .contact-left-up, .subs-right, .story-left, .story-desc{
   border: 1px solid #121212;
   padding: 80px;
 }
@@ -40,4 +40,51 @@
 .grid-contact{
   text-align: center;
   border: 1px solid #121212;
+}
+
+.subs-left img, .contact-right img, .story img{
+  height: 720px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.service, .review, .category-left{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.service, .category-left{
+  height: 720px;
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+}
+
+.service{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('src/assets/image/img-service.jpg');
+}
+
+.review{
+  height: 580px;
+}
+
+.category-left{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('src/assets/image/fresh-flower.jpg');
+}
+
+.sosmed {
+  display: flex;
+  gap: 32px;
+}
+
+.sosmed a, .sosmed img{
+  height: 48px;
+  width: 48px;
+}
+
+.story-left, .story-desc{
+  text-align: center;
 }

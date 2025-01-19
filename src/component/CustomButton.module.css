@@ -9,3 +9,9 @@
     background-color: #FFFFFF;
     color: #121212;
 }
+
+.transparant{
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: transparent;
+}

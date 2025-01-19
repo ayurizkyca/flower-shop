@@ -4,7 +4,7 @@ import styles from './CustomButton.module.css'
 interface Props {
   title: String;
   onClick: () => void;
-  variant: 'primary' | 'secondary'
+  variant: 'primary' | 'secondary' | 'transparant';
 }
 
 const CustomButton:React.FC<Props> = ({title, onClick, variant}) => {

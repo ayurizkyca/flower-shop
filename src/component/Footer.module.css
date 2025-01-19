@@ -1,0 +1,9 @@
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .footer>div{
+    border: 1px solid #121212;
+    padding: 40px;
+  }
