@@ -7,6 +7,7 @@ import CardBenefit from '../component/CardBenefit'
 import CustomInput from '../component/CustomInput'
 import { ROUTES } from '../constant/routeConstant'
 import { useNavigate } from 'react-router-dom'
+import { ICONS } from '../constant/iconsConstant'
 
 const LandingPage: React.FC = () => {
   const navigate = useNavigate();
@@ -100,12 +101,12 @@ const LandingPage: React.FC = () => {
             <img src="src/assets/image/right-colum.png" alt="images" />
             <div className='flex-row'>
               <h2>Follow us</h2>
-              <div>
-                <a href="">ig</a>
-                <a href="">ig</a>
-                <a href="">ig</a>
-                <a href="">ig</a>
-                <a href="">ig</a>
+              <div className='sosmed-landing'>
+                <a href="#"><img src={ICONS.INSTAGRAM} alt="sosmed-icon" /></a>
+                <a href="#"><img src={ICONS.PINTEREST} alt="sosmed-icon" /></a>
+                <a href="#"><img src={ICONS.FACEBOOK} alt="sosmed-icon" /></a>
+                <a href="#"><img src={ICONS.TWITTER} alt="sosmed-icon" /></a>
+                <a href="#"><img src={ICONS.TELEGRAM} alt="sosmed-icon" /></a>
               </div>
             </div>
           </div>

@@ -7,3 +7,17 @@
     border: 1px solid #121212;
     padding: 40px;
   }
+
+  .sosmed{
+    display: flex;
+    gap: 10px;
+  }
+
+  .footerLink{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerLink a{
+    color: #121212;
+  }

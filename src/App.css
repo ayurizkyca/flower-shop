@@ -85,6 +85,22 @@
   width: 48px;
 }
 
+.sosmed-landing {
+  display: flex;
+  gap: 32px;
+}
+
+.sosmed-landing a, .sosmed-landing img{
+  height: 24px;
+  width: 24px;
+}
+
 .story-left, .story-desc{
   text-align: center;
+}
+
+.story-left{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
